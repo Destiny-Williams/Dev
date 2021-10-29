@@ -1,0 +1,51 @@
+*{
+    background-color:rgb(255, 255, 255) ;
+}
+
+#block1 {
+    width: 300px;
+    border: 4px solid black;
+    padding: 50px;
+    margin: 100px;
+    justify-content: space-evenly;
+}
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(94, 141, 212);
+    border-radius: 50%;
+  }
+  .rectangle2 {
+      height: 100px;
+      width:50px;
+      background-color: rgb(144, 18, 175);
+      flex-direction:row;
+      margin:5px;
+  }
+
+  .rectangle {
+    height: 100px;
+    width:50px;
+    background-color: rgb(50, 124, 87);
+    flex-direction:row;
+    margin:5px;
+}
+
+  .container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start
+    }
+
+#block2 {
+    width: 300px;
+    border: 4px dash black;
+    padding: 50px;
+    margin: 100px;
+}
+#block3 {
+    width: 300px;
+    border: 8px solid green;
+    padding: 50px;
+    margin: 100px;
+}
